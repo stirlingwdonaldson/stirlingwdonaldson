@@ -3,15 +3,16 @@
 ```cpp
 #include <iostream>
 #include <string>
+using namespace std;
 
-std::string name =     "Stirling Donaldson";
-std::string degree =   "Software Engineering";
+string name =     "Stirling Donaldson";
+string degree =   "Software Engineering";
 int age =               18;
 
 int main(){
-  std::cout << name << std::endl;
-  std::cout << degree << std::endl;
-  std::cout << age << std::endl;
+  cout << name << endl;
+  cout << degree << endl;
+  cout << age << endl;
   return 0;
 }
 
