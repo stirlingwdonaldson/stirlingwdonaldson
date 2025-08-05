@@ -20,8 +20,8 @@ int main(){
 
 
 ```text
-→ stirlingwdonaldson git:(main) g++ -o readme readme.cpp
-→ stirlingwdonaldson git:(main) ./readme
+→ stirlingwdonaldson git:(main) g++ -o ReadMe ReadMe.cpp
+→ stirlingwdonaldson git:(main) ./ReadMe
 
   Stirling Donaldson
   Software Engineering
