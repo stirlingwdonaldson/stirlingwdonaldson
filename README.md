@@ -2,39 +2,12 @@
 
 ```cpp
 #include <iostream>
-#include <string>
-#include <vector>
-using namespace std;
-
-string name =      "Stirling Donaldson";
-string degree =     "Software Engineering";
-string uni =        "RMIT"
-int age =           18;
-
-string socials(){
-  vector<string> platform = {
-  "insta", "linkedin", "twitter"
-  };
-
-  if(
-  (platform == "insta") ||
-  (platform == "linkedin") ||
-  (platform == "twitter"){
-  social = "stirlingwdonaldson"}
-
-}
-
-
 
 int main(){
-  cout << name << endl;
-  cout << degree << endl;
-  cout << uni << endl;
-  cout << age << endl;
-  return 0;
+  std::cout << "Hello, Im Stirling." << std::endl;
+  std::cout << "I'm a software engineering student, ";
+  std::cout << "living in Melbourne, Australia"
 }
-
-
 ```
 
 
