@@ -6,7 +6,7 @@
 int main(){
   std::cout << std::endl;
   std::cout << "Hello! I'm Stirling," << std::endl;
-  std::cout << "- Software Engineering student" << std::endl;
+  std::cout << "- Software Engineering" << std::endl;
   std::cout << "- Melbourne" << std::endl;
   std::cout << "- RMIT" << std::endl;
   std::cout << "- 18" << std::endl;
@@ -19,7 +19,7 @@ int main(){
 → stirlingwdonaldson git:(main) ./README
 
   Hello! I'm Stirling,
-  - Software Engineering student
+  - Software Engineering
   - Melbourne
   - RMIT
   - 18
