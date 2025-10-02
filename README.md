@@ -1,27 +1,20 @@
 # Stirling Donaldson
 
-```cpp
-#include <iostream>
+```asm
+  .ORIG x3000
 
-int main(){
-  std::cout << std::endl;
-  std::cout << "Hello! I'm Stirling," << std::endl;
-  std::cout << "- Software Engineering" << std::endl;
-  std::cout << "- Melbourne" << std::endl;
-  std::cout << "- RMIT" << std::endl;
-  std::cout << "- 18" << std::endl;
-}
+  LEA R0, NAME  ; load name into R0
+  PUTS          ; print R0
+
+  HALT
+  NAME  .STRINGZ "Hi, I'm Stirling Donaldson!"
+  .END
 ```
 
 
 ```text
-→ stirlingwdonaldson git:(main) g++ -o README README.cpp
-→ stirlingwdonaldson git:(main) ./README
+→ stirlingwdonaldson git:(main)laser -a README.asm && laser.obj
 
-  Hello! I'm Stirling,
-  - Software Engineering
-  - Melbourne
-  - RMIT
-  - 18
+  Hello, I'm Stirling Donaldson!
 
 ```
