@@ -13,7 +13,7 @@
 
 
 ```text
-→ stirlingwdonaldson git:(main)laser -a README.asm && laser.obj
+→ stirlingwdonaldson git:(main) laser -a README.asm && README.obj
 
   Hello, I am Stirling Donaldson!
 
