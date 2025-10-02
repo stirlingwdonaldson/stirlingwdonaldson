@@ -7,7 +7,7 @@
   PUTS          ; print R0
 
   HALT
-  NAME  .STRINGZ "Hi, I'm Stirling Donaldson!"
+  NAME  .STRINGZ "Hi, I am Stirling Donaldson!"
   .END
 ```
 
@@ -15,6 +15,6 @@
 ```text
 → stirlingwdonaldson git:(main)laser -a README.asm && laser.obj
 
-  Hello, I'm Stirling Donaldson!
+  Hello, I am Stirling Donaldson!
 
 ```
