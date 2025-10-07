@@ -15,6 +15,6 @@
 ```text
 → stirlingwdonaldson git:(main) laser -a README.asm && README.obj
 
-  Hello, I am Stirling Donaldson!
+  Hi, I am Stirling Donaldson!
 
 ```
